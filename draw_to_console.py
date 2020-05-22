@@ -12,7 +12,12 @@ import math
 from PIL import Image
 from google_images_download import google_images_download
 
-SPECIAL_CHARS = [' ', ' ', '.', ':', '!', '+', '*', 'e', '$', '@', '8']
+SPECIAL_CHARS = [' ', '.', '·', ',', '°', ':', ';',
+ '!', '•', '+', '*', 'e', '#', '$', '@', '8']
+""" Emoji set
+SPECIAL_CHARS = [' ', '☁️', '🏐', '🍥', '🗿', '💡', '👶',
+ '😏', '😁', '📀', '🥔', '🐻', '🐒', '🌚', '🖤']
+"""
 desired_width = 50
 
 
