@@ -119,11 +119,11 @@ def command_line_interface():
         if keyw.lower() == 'help':
             print('\n'*3)
             print(' - Enter the keyword to draw an image \
-                found at google images.')
+found at google images.')
             print(' - To draw a local image enter the command as\
-                \' LOCAL myimage.png \'. ')
+\' LOCAL myimage.png \'. ')
             print(' - Default width for the images is 50 to change\
-                width type \'width {newwidth}\'. ')
+width type \'width {newwidth}\'. ')
             print(' - To clear the console type \'clear\'. ')
             print(' - Exit or Quit commands will exit the application.')
             print('\n'*3)
